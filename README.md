@@ -1,4 +1,3 @@
-Markdown# Boomstick
 ## Description
 
 Boomstick is a PHP library designed to generate JSON objects representing HTML forms, control elements, and tables. It is particularly useful for creating structured data for REST API responses that can be consumed by frontend frameworks like Angular to render dynamic user interfaces.
@@ -123,3 +122,6 @@ This library is licensed under the GPL-2.0-or-later.
 Author
 
 Emil Limarenko (ash_williams@mail.ru)
+
+
+отредактируй для гитхаба что бы было оформление правильное
