@@ -1,25 +1,30 @@
-Boomstick
+Markdown# Boomstick
+## Description
 
-
-
-Description
 Boomstick is a PHP library designed to generate JSON objects representing HTML forms, control elements, and tables. It is particularly useful for creating structured data for REST API responses that can be consumed by frontend frameworks like Angular to render dynamic user interfaces.
+
 The library provides classes and interfaces to build form areas with various controls (buttons, checkboxes, selects, date ranges, etc.) and tables with customizable columns and actions.
-Features
 
-Generate JSON for form controls and areas.
-Build tables with headers, rows, columns, and actions.
-Supports PSR-4 autoloading.
-Tested with Codeception.
+## Features
 
-Requirements
+- Generate JSON for form controls and areas.
+- Build tables with headers, rows, columns, and actions.
+- Supports PSR-4 autoloading.
+- Tested with Codeception.
 
-PHP 7.0 to 8.0
+## Requirements
 
-Installation
-Since the package is not yet published on Packagist, you can install it by cloning the repository and requiring it locally, or add it as a repository in your composer.json.
+- PHP 7.0 to 8.0
 
-Clone the repository:Bashgit clone https://github.com/ashwilliams87/boomstick.git
+## Installation
+
+Since the package is not yet published on Packagist, you can install it by cloning the repository and requiring it locally, or add it as a repository in your `composer.json`.
+
+1. Clone the repository:
+
+   ```bash
+   git clone https://github.com/ashwilliams87/boomstick.git
+
 Add to your composer.json (in the requiring project):JSON"repositories": [
     {
         "type": "path",
